@@ -22,7 +22,8 @@ Print ARGUMENT(s) according to FORMAT:
 
 .SH CONVERSION CHARACTERS
 .B The conversion specifiers and their meanings are:
-.IP -b 
+
+.IP -b
 The unsigned int argument is converted to binary.
 
 .IP -d,i
@@ -43,8 +44,8 @@ unsigned hexadecimal: (x and X).
 
 .IP -s
 Characters from the array are written up to (but not including) a terminating null byte ('\0').
-	
-.IP -S 
+
+.IP -S
 Characters from the array are written up to (but not including) a terminating null byte ('\0').
 
 Not include characters (0 < ASCII value < 32 or >= 127), are printed \x, , followed by the ASCII code value in hexadecimal (upper case - always 2 characters).
@@ -84,4 +85,4 @@ Copyright © 2020 Holberton School B.
 Copyright © SS64.com 1999-2020.
 
 
-Copyright Â© 2010 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+Copyright Â© 2010 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>..
